@@ -22,5 +22,7 @@ public class Exercício1 {
         System.out.println("Informe a quarta nota:");
         n4 = input.nextDouble();
 
+        md = (n1 + n2 + n3 + n4) / 4;
+
     }
 }
