@@ -8,7 +8,7 @@ public class Exercício1 {
 
         double n1, n2, n3, n4;
         double md;
-        Scanner input = new Scanner(System.in)
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Informe a primeira nota:");
         n1 = input.nextDouble();
@@ -23,6 +23,16 @@ public class Exercício1 {
         n4 = input.nextDouble();
 
         md = (n1 + n2 + n3 + n4) / 4;
+
+        if (md >= 6){
+            System.out.println("Aprovado");
+        }
+        else {
+            System.out.println("Reprovado");
+        }
+
+        System.out.println("Média:" + md);
+        input.close();
 
     }
 }
