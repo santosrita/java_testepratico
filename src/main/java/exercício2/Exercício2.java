@@ -9,15 +9,7 @@ public class Exercício2 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Informe o primeiro valor");
-        A = input.nextInt();
-
-        System.out.println("Informe o segundo valor");
-        B = input.nextInt();
-
-        System.out.println("Informe o terceiro valor");
-        C = input.nextInt();
-
+        //Solicitando 3 valores:
 
         System.out.println("Informe o primeiro valor");
         A = input.nextInt();
@@ -38,5 +30,7 @@ public class Exercício2 {
         if (C > maior){
             maior = C;
         }
+        System.out.println("O maior valor é:" + maior);
+        input.close();
     }
 }
