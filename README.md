@@ -2,7 +2,7 @@
 Resolução de testes práticos após introdução a linguagem de programação JAVA. Criação de algoritmos e utilização de Estruturas sequenciais, Estruturas de repetição e Estruturas de decisão.
 
 Lista de questões a serem resolvidas:
-1 - Faça um algoritmo em Java para calcular a média aritmética das 3 notas de um aluno e
+1 - Faça um algoritmo em Java para calcular a média aritmética das 4 notas de um aluno e
 mostre, além do valor da média, uma mensagem de "Aprovado", caso a média sejaigual ou
 superior a 6, ou a mensagem "Reprovado", caso contrário. Exiba os resultados no console.
 
