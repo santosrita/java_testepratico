@@ -28,7 +28,15 @@ public class Exercício2 {
         System.out.println("Informe o terceiro valor");
         C = input.nextInt();
 
-       
+        //Verificando o maior valor entre A, B, C
+
+        int maior = A;
+
+        if(B > maior){
+            maior = B;
+        }
+        if (C > maior){
+            maior = C;
         }
     }
 }
