@@ -15,6 +15,15 @@ public class Exercício3 {
         System.out.println("Digite o valor de B");
         B = input.nextInt();
 
+        //Verificando se são múltiplos
+
+        if (A % B == 0 || B % A == 0){
+            System.out.println("São múltiplos");
+        }
+        else{
+            System.out.println("Não são múltiplos");
+        }
+
 
     }
 }
