@@ -14,5 +14,16 @@ public class Exercicio5 {
 
         System.out.println("Digite o segundo número");
         numero2 = input.nextInt();
+
+        //Verificando quem é maior, menor ou se são iguais
+        if (numero1 > numero2){
+            System.out.println("Primeiro número é maior");
+        } else if (numero2 > numero1){
+            System.out.println("Segundo número é maior");
+        }
+        else{
+            System.out.println("Os números são iguais");
+        }
+        input.close();
     }
 }
