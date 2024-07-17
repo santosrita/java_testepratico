@@ -12,8 +12,13 @@ public class Exercicio6 {
 
         //Solicitando a altura ao usuário
         System.out.println("Digite a altura em metros");
-        altura = input.nextDouble()
-                
+        altura = input.nextDouble();
+
+        //Solicitando o sexo ao usuário
+        System.out.println("Digite o sexo (M para masculino e F para feminino)");
+        sexo = input.nextDouble();
+
+        
 
 
 
