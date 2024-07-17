@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercício4 {
     public static void main(String[] args) {
 
-        int numero
+        int numero;
                 Scanner input = new Scanner(System.in);
 
         //Solicitando valor ao usuário
@@ -20,6 +20,14 @@ public class Exercício4 {
             System.out.println(numero + "é ímpar");
         }
 
-
+        //Verificando se o número é positivo, negativo ou zero
+        if (numero > 0) {
+            System.out.println(numero + " é positivo.");
+        } else if (numero < 0) {
+            System.out.println(numero + " é negativo.");
+        } else {
+            System.out.println(numero + " é zero.");
+        }
+        input.close();
     }
 }
