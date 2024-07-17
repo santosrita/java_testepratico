@@ -12,6 +12,13 @@ public class Exercício4 {
         System.out.println("Digite um valor");
         numero = input.nextInt();
 
+        //Verificando se o número é ímpar ou par
+        if (numero % 2 == 0){
+            System.out.println(numero + "é par");
+        }
+        else{
+            System.out.println(numero + "é ímpar");
+        }
 
 
     }
