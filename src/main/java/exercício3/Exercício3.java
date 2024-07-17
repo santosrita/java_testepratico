@@ -6,7 +6,7 @@ public class Exercício3 {
     public static void main(String[] args) {
 
         int A, B;
-        Scanner input = new Scanner(System.in)
+        Scanner input = new Scanner(System.in);
 
                 //Solicitando os valores ao usuário
         System.out.println("Digite o valor de A");
@@ -23,7 +23,6 @@ public class Exercício3 {
         else{
             System.out.println("Não são múltiplos");
         }
-
-
+        input.close();
     }
 }
