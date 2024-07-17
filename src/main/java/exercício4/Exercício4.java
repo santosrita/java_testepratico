@@ -14,7 +14,7 @@ public class Exercício4 {
 
         //Verificando se o número é ímpar ou par
         if (numero % 2 == 0){
-            System.out.println(numero + "é par");
+            System.out.println(numero +  "é par");
         }
         else{
             System.out.println(numero + "é ímpar");
