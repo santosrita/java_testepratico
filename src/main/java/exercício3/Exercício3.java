@@ -6,7 +6,7 @@ public class Exercício3 {
     public static void main(String[] args) {
 
         int A, B;
-        
+        Scanner input = new Scanner(System.in)
 
 
     }
