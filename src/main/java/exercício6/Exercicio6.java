@@ -9,7 +9,16 @@ public class Exercicio6 {
         Double altura;
         Double imcIdeal;
         Scanner input = new Scanner(System.in);
-        
+
+        //Solicitando a altura ao usuário
+        System.out.println("Digite a altura em metros");
+        altura = input.nextDouble()
+                
+
+
+
+
+
         input.close();
 
     }
