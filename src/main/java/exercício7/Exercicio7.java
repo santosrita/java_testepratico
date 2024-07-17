@@ -6,7 +6,8 @@ public class Exercicio7 {
         int i;
 
         // Iterando de 10 até 1 usando um loop for
-        for (int i = 10; i >= 1; i--) {
+        for (i = 10; i >= 1; i--) {
             System.out.println(i);
+        }
     }
 }
