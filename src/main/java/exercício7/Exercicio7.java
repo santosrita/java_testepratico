@@ -5,7 +5,7 @@ public class Exercicio7 {
 
         int i;
 
-        // Iterando de 10 até 1 usando um loop for
+        // Usando um loop for
         for (i = 10; i >= 1; i--) {
             System.out.println(i);
         }
