@@ -22,12 +22,12 @@ public class Exercicio6 {
         if (sexo.equalsIgnoreCase("M")){
             //Fórmula para homens
             imcIdeal = (72.7 * altura) - 58;
-            System.out.println("O IMC ideal para um homem com altura " + altura + "é: " + imcIdeal);
+            System.out.println("O IMC ideal para um homem com altura " + altura + "m é: " + imcIdeal);
         }
         else if (sexo.equalsIgnoreCase("F")){
             //Fórmula para mulheres
             imcIdeal = (62.1 * altura) - 44.7;
-            System.out.println("O IMC ideal para uma mulher com altura " + altura + "é: " + imcIdeal);
+            System.out.println("O IMC ideal para uma mulher com altura " + altura + "m é: " + imcIdeal);
         }
         else {
             //Se o sexo não for válido
